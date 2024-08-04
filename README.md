@@ -59,7 +59,7 @@ Before you begin, ensure you have the following installed:
     yarn start
     ```
 
-    The app will be available at `http://localhost:5163`.
+    The app will be available at `http://localhost:5173`.
 
 ### Building the App
 
