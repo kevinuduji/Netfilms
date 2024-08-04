@@ -13,8 +13,7 @@ This project is a React-based web application designed to simulate a streaming s
 
 ## Technologies Used
 
-- **React**: For building the user interface.
-- **Redux**: For state management.
+- **React + Vite**: For building the user interface.
 - **React Router**: For handling navigation within the app.
 - **TMBD**: For making API requests.
 - **Tailwind CSS**: For styling the application.
