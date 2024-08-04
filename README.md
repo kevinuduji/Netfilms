@@ -15,6 +15,8 @@ This project is a React-based web application designed to simulate a streaming s
 
 - **React + Vite**: For building the user interface.
 - **React Router**: For handling navigation within the app.
+- **Firebase Auth**: For handling email and password security.
+- **Toastify**: For handling on screen alerts.
 - **TMBD**: For making API requests.
 - **Tailwind CSS**: For styling the application.
 
@@ -95,7 +97,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Kevin Uduji  
-[Your Email](mailto:your-email@example.com)
+[Email](kevinuduji@gmail.com)
 
 ---
 
