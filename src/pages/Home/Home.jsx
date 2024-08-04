@@ -1,4 +1,3 @@
-import React from 'react'
 import './Home.css'
 import Navbar from '../../components/Navbar/Navbar'
 import hero_banner from '../../assets/hero_banner.jpg'
@@ -7,8 +6,27 @@ import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
 import TitleCards from '../../components/TitleCards/TitleCards'
 import Footer from '../../components/Footer/Footer'
+import React, { useEffect, useState } from 'react'
 
 const Home = () => {
+
+  const [apiData, setApiData] = useState([]);
+
+  const options = {
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZjlhMTRlZjEwNTFiOGYzYjNlNWI0YTY5NjA3Y2FlZSIsIm5iZiI6MTcyMjc3MTU4OS4xMTAyLCJzdWIiOiI2NmFmNjdhZWFmNzhjNmMwZjZjMzdhM2YiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.9LJl2wj9Xlu4o4rhihigY6JOQfAJYu2ObvBZ7O81GJk'
+    }
+  };
+  
+  useEffect(() => {
+  fetch(`https://api.themoviedb.org/3/trending/all/day"}?language=en-US&page=1`, options)
+    .then(response => response.json())
+    .then(response => setApiData(response.results))
+    .catch(err => console.error(err));
+  }, [])
+
   return (
     <div className='home'>
       <Navbar />

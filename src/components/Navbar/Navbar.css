@@ -18,6 +18,7 @@
 
 .navbar-left img{
     width: 90px;
+    object-fit: contain;
 }
 
 .navbar-left ul{
@@ -38,7 +39,7 @@
 }
 
 .navbar-right .icons{
-    width: 20px;
+    width: 15px;
     cursor: pointer;
 }
 
@@ -84,4 +85,28 @@
     background: #090909e9;
     transition: all ;
     transition-duration: 0.3s;
+}
+
+@media (max-width: 1100px){
+    .navbar{
+        padding: 20px 4%;
+    }
+
+    .navbar-left ul{
+        display: none;
+    }
+    .navbar img{
+        
+    }
+}
+
+@media screen and (max-width: 450px){
+    .navbar img{
+        height: 40px;
+        object-fit: contain;
+    }
+    .navbar-right {
+        gap: 20px;
+    }
+    
 }

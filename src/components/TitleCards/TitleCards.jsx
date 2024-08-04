@@ -22,12 +22,10 @@ const TitleCards = ({title, category, medium}) => {
   }
 
   useEffect(() => {
-
   fetch(`https://api.themoviedb.org/3/${medium?medium:'trending'}/${category?category:"all/day"}?language=en-US&page=1`, options)
     .then(response => response.json())
     .then(response => setApiData(response.results))
     .catch(err => console.error(err));
-
     cardsRef.current.addEventListener("wheel", handleWheel);
   }, [])
 
