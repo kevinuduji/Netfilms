@@ -1,7 +1,7 @@
 import './Home.css'
 import Navbar from '../../components/Navbar/Navbar'
-import hero_banner from '../../assets/hero_banner.jpg'
-import hero_title from '../../assets/hero_title.png'
+import theboys_banner from '../../assets/theboys_banner.jpg'
+import theboys_logo from '../../assets/theboys_logo.png'
 import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
 import TitleCards from '../../components/TitleCards/TitleCards'
@@ -31,10 +31,10 @@ const Home = () => {
     <div className='home'>
       <Navbar />
       <div className="hero">
-        <img src={hero_banner} alt="" className='banner-img'/>
+        <img src={theboys_banner} alt="" className='banner-img'/>
         <div className="hero-caption">
-          <img src={hero_title} alt="" className='caption-img'/>
-          <p>Former elite operative Jack Harper is back in action to stop a covert organization from unleashing global chaos. Racing against time, he must use his combat skills and wits to thwart an apocalyptic plot. Buckle up for a relentless, high-stakes thrill ride!</p>
+          <img src={theboys_logo} alt="" className='caption-img'/>
+          <p>"The Boys" is a darkly comedic superhero series where corrupt "Supes" are controlled by a powerful corporation. A vigilante group, The Boys, aims to expose and take down these morally compromised heroes.</p>
           <div className="hero-btns">
             <button className='btn'><img src={play_icon} alt="" />Play</button>
             <button className='btn dark-btn'><img src={info_icon} alt="" />More Info</button>
