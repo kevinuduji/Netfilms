@@ -1,4 +1,4 @@
-# React Streaming Service App
+# NETFILMS - React Streaming Service App
 
 ## Overview
 
@@ -104,4 +104,4 @@ Kevin Uduji
 
 ---
 
-Enjoy using the React Streaming Service App! If you have any questions or feedback, feel free to reach out.
+Enjoy using Netfilms! If you have any questions or feedback, feel free to reach out.
