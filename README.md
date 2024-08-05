@@ -33,8 +33,8 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/react-streaming-service.git
-    cd react-streaming-service
+    git clone https://github.com/your-username/netfilms
+    cd netfilms
     ```
 
 2. **Install Dependencies**:
@@ -96,8 +96,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Kevin Uduji  
-[Email](kevinuduji@gmail.com)
+Kevin Uduji
+
+• [LinkedIn](https://www.linkedin.com/in/kevinuduji/)
+
+• [GitHub](https://github.com/kevinuduji)
 
 ---
 
