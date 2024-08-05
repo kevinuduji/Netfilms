@@ -1,5 +1,8 @@
 # NETFILMS - React Streaming Service App
 
+![Uploading Screenshot 2024-08-04 at 10.50.13 PM.png…]()
+![Uploading Screenshot 2024-08-04 at 10.50.46 PM.png…]()
+
 ## Overview
 
 This project is a React-based web application designed to simulate a streaming service. The app showcases the most popular shows at all times, providing users with an engaging and immersive experience similar to major streaming platforms.
