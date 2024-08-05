@@ -1,7 +1,7 @@
 # NETFILMS - React Streaming Service App
 
-![Uploading Screenshot 2024-08-04 at 10.50.13 PM.png…]()
-![Uploading Screenshot 2024-08-04 at 10.50.46 PM.png…]()
+<img width="1416" alt="Screenshot 2024-08-04 at 10 50 13 PM" src="https://github.com/user-attachments/assets/a5fe0a5a-83d3-416d-835c-636e6d9976b7">
+<img width="1416" alt="Screenshot 2024-08-04 at 10 50 46 PM" src="https://github.com/user-attachments/assets/e1e6efaa-2f8f-42ef-8c8c-1fbb7eee269a">
 
 ## Overview
 
